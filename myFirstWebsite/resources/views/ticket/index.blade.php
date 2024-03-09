@@ -19,6 +19,10 @@
             </div>
             @endforeach
 
+            @if (count($tickets) === 0)
+                <p>you don't habe any support ticket</p>
+            @endif
+
         </div>
 
 
